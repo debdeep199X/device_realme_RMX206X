@@ -14,6 +14,7 @@ TARGET_SCREEN_DENSITY := 480
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX2061,RMX2061EU,RMX2063
@@ -183,17 +184,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-
-# Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/qcom/sepolicy_vndr/generic/private \
-    device/qcom/sepolicy_vndr/qva/private
-
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy_vndr/generic/public \
-    device/qcom/sepolicy_vndr/qva/public
-
-SELINUX_IGNORE_NEVERALLOWS := true
 
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
