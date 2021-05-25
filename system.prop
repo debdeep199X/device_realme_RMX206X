@@ -8,12 +8,6 @@ persist.audio.fluence.speaker=true
 
 # Bluetooth
 vendor.bluetooth.soc=cherokee
-persist.vendor.bt.a2dp.aac_whitelist=false
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac
-persist.vendor.btstack.enable.splita2dp=true
-persist.vendor.btstack.enable.twsplus=true
-persist.vendor.btstack.enable.twsplussho=true
-ro.bluetooth.library_name=libbluetooth_qti.so
 persist.bluetooth.bqr.event_mask=0x8000000E
 persist.bluetooth.bqr.min_interval_ms=60000
 persist.bluetooth.bqr.choppy_threshold=9,6
