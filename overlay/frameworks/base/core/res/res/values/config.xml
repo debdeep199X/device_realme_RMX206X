@@ -601,5 +601,8 @@
     </string-array>
 
     <!-- Whether device has VOOC charging support -->
-    <bool name="config_hasVoocCharger">true</bool>    
+    <bool name="config_hasVoocCharger">true</bool>
+
+    <!-- Whether to show settings for hiding notch fill -->
+    <bool name="config_showHideNotchSettings">true</bool>	
 </resources>
