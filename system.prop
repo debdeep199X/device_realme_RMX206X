@@ -95,7 +95,7 @@ vendor.media.vpp.enable=true
 ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netflix custom property
-ro.netflix.bsp_rev=Q8250-19134-1
+ro.netflix.bsp_rev=Q6250-19132-1
 
 # Nfc
 ro.nfc.port=I2C
