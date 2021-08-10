@@ -95,6 +95,10 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@2.0
 
+# Display Overlay
+PRODUCT_PACKAGES += \
+    DisplayCutoutEmulationRMX206XOverlay
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/svi_config_19720.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/svi_config_19720.xml
 
